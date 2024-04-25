@@ -1,0 +1,25 @@
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName", "Memory Inc"
+            VALUE "FileDescription", "Memory String Game"
+            VALUE "FileVersion", "1,0,0,0"
+            VALUE "InternalName", "MemString"
+            VALUE "LegalCopyright", "Copyright © Memory Inc"
+            VALUE "OriginalFilename", "MemString.exe"
+            VALUE "ProductName", "MemString"
+            VALUE "ProductVersion", "1,0,0,0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1252
+    END
+END
+
+IDI_ICON1 ICON DISCARDABLE "./RC/Icon.ico"
